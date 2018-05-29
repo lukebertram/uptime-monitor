@@ -2,6 +2,8 @@
 
 A Node.js-based RESTful API for for tracking the uptime of user-specified websites. It will allow a user to enter a URL that they want monitored and receive alerts when those resources go down or come back up. Functionality will be included for sending SMS alerts to a user rather than email alerts. Users will be able to sign up, sign in, sign out and make uptime checks.
 
+For now, the application will use the filesystem as a key-value store of JSON docs instead of a proper database. 
+
 ## Specs
 1. [ ] The API listens on a PORT and accepts incoming HTTP requests for POST, GET, PUT, DELETE and HEAD
 2. [ ] The API allows a client to connect, create a new user, then edit and/or delete that user.
