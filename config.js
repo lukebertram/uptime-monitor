@@ -8,13 +8,15 @@ const environments = {};
 
 // Development (default) environment
 environments.development =  {
-  'port'    :  3333,
-  'envName' : 'development'
+  'httpPort'    :  3333,
+  'httpsPort'   :  3334,
+  'envName'     : 'development'
 };
 
 // Production environment
 environments.production = {
-  'port'    : 5000,
+  'httpPort'    :  5000,
+  'httpsPort'   :  5001,
   'envName' : 'production'
 };
 
