@@ -98,7 +98,7 @@ const unifiedServer = (req, res) => {
 };
 
 //Define the router handlers
-var handlers = {};
+const handlers = {};
 
 // Ping handler
 handlers.ping = (data, callback) => {
